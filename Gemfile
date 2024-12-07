@@ -1,9 +1,10 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
+# Gemfile
+source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-cross_origin'
 gem 'json'
 
-# gem "rails"
+group :development do
+  gem 'rack'
+end
